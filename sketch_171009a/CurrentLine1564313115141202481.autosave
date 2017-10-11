@@ -1,0 +1,17 @@
+class CurrentLine {
+  float b = 0;
+  
+  
+
+  CurrentLine(float w0, float w1) {
+    b = calcB(w0, w1);
+  }
+
+  void calcNewB(float w0, float w1) {
+    b = calcB(w0, w1);
+  }
+
+  void draw() {
+
+  }
+}
